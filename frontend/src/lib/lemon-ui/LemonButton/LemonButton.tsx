@@ -40,6 +40,8 @@ export interface LemonButtonPropsBase
     targetBlank?: boolean
     /** External URL to link to. */
     className?: string
+    /** Whether the text should be positioned vertically. */
+    vertical?: boolean
 
     /** Icon displayed on the left. */
     icon?: React.ReactElement | null

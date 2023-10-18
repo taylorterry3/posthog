@@ -475,3 +475,9 @@
     transform: translateY(-50%);
     display: none; // Only show on hover/focus or for current page
 }
+
+.Panelbar {
+    display: flex;
+    flex-direction: column;
+    border-left: var(--border) solid 1px;
+}

@@ -10,6 +10,7 @@ import { navigation3000Logic } from './navigationLogic'
 import clsx from 'clsx'
 import { NotebookPopover } from 'scenes/notebooks/Notebook/NotebookPopover'
 import { Scene, SceneConfig } from 'scenes/sceneTypes'
+import { Panelbar } from './components/Panelbar'
 
 export function Navigation({
     children,
@@ -43,6 +44,7 @@ export function Navigation({
                     {children}
                 </div>
             </main>
+            <Panelbar />
             <CommandPalette />
         </div>
     )
